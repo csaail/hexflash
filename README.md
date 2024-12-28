@@ -7,7 +7,7 @@ HexFlash is a Visual Studio Code extension for flashing HEX files onto STM32 dev
 - Allows you to select a HEX file for flashing.
 
 ## Usage
-1. Make sure you have the DFU driver Installed from 
+1. Make sure you have the DFU driver Installed from [here](https://github.com/DronaAviation/Resources/tree/main/DFU%20Drivers).
 2. Connect your STM32 device.
 3. Run the `Flash HEX File` command (`Ctrl+Shift+P` → "Flash HEX File").
 4. Select your HEX file and wait for the flashing process to complete.
