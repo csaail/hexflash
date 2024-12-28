@@ -1,0 +1,33 @@
+{
+  "name": "hexflash",
+  "displayName": "Hex Flash",
+  "description": "A VS Code extension for DFU flashing HEX files onto STM32 devices.",
+  "version": "1.0.0",
+  "publisher": "saailchavan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csaail/hexflash.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.flashHex"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.flashHex",
+        "title": "Flash HEX File"
+      }
+    ]
+  },
+  "dependencies": {
+    "usb": "^2.14.0"
+  }
+}
